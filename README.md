@@ -1,5 +1,7 @@
 # install-graphviz
 
+![test workflow](https://github.com/tlylt/install-graphviz/actions/workflows/test.yml/badge.svg)
+
 This action provides the following functionality for GitHub Actions users:
 
 - Install Graphviz cross-platform (Linux, macOS, Windows)
