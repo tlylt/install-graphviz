@@ -31,7 +31,7 @@ jobs:
     runs-on: ${{ matrix.platform }}
     name: Test
     steps:
-      - uses: tlylt/instal-graphviz@main
+      - uses: tlylt/install-graphviz@main
 ```
 
 # License
