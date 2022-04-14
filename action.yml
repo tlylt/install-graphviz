@@ -19,5 +19,6 @@ runs:
       if: runner.os == 'macOS'
       run: brew install graphviz
       shell: bash
-    - run: echo "Graphviz installed successfully (${runner.os})"
+    - run: echo "Graphviz installed successfully (${{ runner.os }})"
+      if: ${{ success() }}
       shell: bash
