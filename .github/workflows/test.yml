@@ -1,0 +1,16 @@
+name: Test install-graphviz
+
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  build:
+    strategy:
+      matrix:
+        platform: [ubuntu-latest, windows-latest, macos-latest]
+    runs-on: ${{ matrix.platform }}
+    name: Test
+    steps:
+      - uses: tlylt/instal-graphviz@main
