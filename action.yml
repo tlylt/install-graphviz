@@ -12,10 +12,10 @@ runs:
       run: sudo apt-get install graphviz
       shell: bash
     - name: Install Dependencies (Windows)
-      if:  == 'Windows'
+      if: runner.os == 'Windows'
       run: choco install graphviz
       shell: bash
     - name: Install Dependencies (macOS)
-      if:  == 'macOS'
+      if: runner.os == 'macOS'
       run: brew install graphviz
       shell: bash
