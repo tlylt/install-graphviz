@@ -12,7 +12,7 @@ This action will detect the operating system and install Graphviz cross-platform
 
 ```yaml
 steps:
-- uses: tlylt/install-graphviz@main
+- uses: tlylt/install-graphviz@v1
 ```
 
 # Testing
