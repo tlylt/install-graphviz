@@ -1,4 +1,4 @@
-# install-graphviz
+# Install Graphviz
 
 [![test workflow](https://github.com/tlylt/install-graphviz/actions/workflows/test.yml/badge.svg)](https://github.com/tlylt/install-graphviz/actions/workflows/test.yml)
 

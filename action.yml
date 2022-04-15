@@ -1,4 +1,4 @@
-name: install-graphviz
+name: Install Graphviz
 description: 'Install Graphviz cross-platform (Linux, macOS, Windows)'
 branding: 
   icon: 'download'
