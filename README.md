@@ -1,6 +1,6 @@
 # install-graphviz
 
-![test workflow](https://github.com/tlylt/install-graphviz/actions/workflows/test.yml/badge.svg)
+[![test workflow](https://github.com/tlylt/install-graphviz/actions/workflows/test.yml/badge.svg)](https://github.com/tlylt/install-graphviz/actions/workflows/test.yml)
 
 This action provides the following functionality for GitHub Actions users:
 
